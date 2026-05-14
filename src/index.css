@@ -5,30 +5,30 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Playfair Display", serif;
   
-  --color-gold-50: #fff9eb;
-  --color-gold-100: #ffedc2;
-  --color-gold-200: #ffd985;
-  --color-gold-300: #ffbc47;
-  --color-gold-400: #ffa11a;
-  --color-gold-500: #d4af37; /* Metallic Gold */
-  --color-gold-600: #b8860b;
-  --color-gold-700: #916a0a;
-  --color-gold-800: #73540e;
-  --color-gold-900: #5f4512;
+  --color-brand-50: #ecfeff;
+  --color-brand-100: #cffafe;
+  --color-brand-200: #a5f3fc;
+  --color-brand-300: #67e8f9;
+  --color-brand-400: #22d3ee;
+  --color-brand-500: #00B5E2; /* Brand Cyan/Teal */
+  --color-brand-600: #0891b2;
+  --color-brand-700: #0e7490;
+  --color-brand-800: #155e75;
+  --color-brand-900: #164e63;
 }
 
 @layer base {
   body {
-    @apply bg-black text-white font-sans;
+    @apply bg-[#0a0a0a] text-white font-sans;
   }
 }
 
-.gold-gradient {
-  background: linear-gradient(135deg, #d4af37 0%, #f9e29c 50%, #b8860b 100%);
+.brand-gradient {
+  background: linear-gradient(135deg, #00B5E2 0%, #22d3ee 50%, #0891b2 100%);
 }
 
-.gold-text-gradient {
-  background: linear-gradient(135deg, #d4af37 0%, #f9e29c 50%, #b8860b 100%);
+.brand-text-gradient {
+  background: linear-gradient(135deg, #00B5E2 0%, #22d3ee 50%, #0891b2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
